@@ -58,7 +58,7 @@ public class File_manipulation_task_4 {
                     if (existing.getTitle().equals(title)) {
                         System.out.println("You can write your notes now");
                         String content = scan.nextLine();
-                        existing.setContent(existing.getContent() + " " + content); // ✅ Append new content
+                        existing.setContent(existing.getContent() + " " + content); 
                         found = true;
                         break;
                     }
@@ -168,3 +168,4 @@ class Notes_Management {
         this.content = content;
     }
 }
+
